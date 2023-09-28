@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Sabah, la gata siamesa</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>SABAH, LA GATA SIAMESA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a class="active" href="audiovisuales.html">AudioVisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <h2>Videos de Sabah</h2>
+
+
+
+
+    </header>
+    
+    <section class="centrado">
+        <div class="gallery">
+            <video autoplay muted controls>
+                <source src="/assets/videos/WhatsApp Video 2023-09-27 at 19.53.56.mp4">
+            </video>
+        </div>
+    
+        <div class="gallery" style="margin: 15px;">
+            <video autoplay muted controls>
+                <source src="/assets/videos/WhatsApp Video 2023-09-27 at 20.00.19.mp4">
+            </video>
+        </div>
+
+        <div class="gallery" style="margin: 25px;">
+            <video autoplay muted controls>
+                <source src="/assets/videos/WhatsApp Video 2023-09-27 at 20.34.52.mp4">
+            </video>
+        </div>
+    
+    
+    </section>
+
+    <h2 style="text-align: center;">Imágenes</h2>
+
+    <section class="centrado">
+        <div class="gallery">
+            <a href="/assets/img/WhatsApp Image 2023-09-27 at 19.54.28.jpeg" target="_blank"><img
+                    src="/assets/img/WhatsApp Image 2023-09-27 at 19.54.28.jpeg" alt="locasss" width="500px"></a>
+            <div class="desc">Sabah 1</div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/WhatsApp Image 2023-09-27 at 18.38.55.jpeg" target="_blank"><img
+                    src="/assets/img/WhatsApp Image 2023-09-27 at 18.38.55.jpeg" alt="locaaaas" width="500px"></a>
+            <div class="desc">Sabah 2</div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/WhatsApp Image 2023-09-27 at 18.38.54.jpeg" target="_blank"><img
+                src="/assets/img/WhatsApp Image 2023-09-27 at 18.38.54.jpeg" alt="locaaaaaaas" width="500px"></a>
+                <div class="desc">Sabah 3</div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p>Derechos Reservados De Autor &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
